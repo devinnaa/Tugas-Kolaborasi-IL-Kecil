@@ -1,0 +1,205 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.header{
+    width: 1280px;
+}
+
+body{
+    background-image: url(under.png);
+    width: 1280px;
+    background-size:cover;
+}
+
+@font-face {
+    font-family: 'holen';
+    src: url(Holen\ Vintage.otf );
+}
+
+@font-face {
+    font-family: 'super';
+    src: url(Super\ Morning.ttf);
+}
+
+@font-face {
+    font-family: 'cafe';
+    src: url(This\ Cafe.ttf);
+}
+
+@font-face {
+    font-family: 'serif';
+    src: url(TT\ Norms\ Pro\ Serif\ Trial\ Bold.ttf);
+}
+
+/*Kode CSS Navigator*/
+ul{
+    list-style:none;
+    background: #3289c7;
+    padding: 0px 0px;
+    margin: -5px -1px;
+    position:relative;
+    width: 1280px;
+    height: 60px;
+} 
+
+ul li{
+    display: inline-block ;
+    position: relative;
+    height: 60px;
+    padding: 10px 8px;
+}
+
+ul li a{
+    padding: 10px 0px;
+    text-align: center;
+}
+
+ul a:hover{
+    background-color: #133E87;
+}
+
+/* Kode css dropdown */
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    background:rgb(15, 96, 147);
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+/*Kode CSS Side Bar*/
+h1.sdgs{
+    margin: 20px 0px;
+    font-family: 'cafe';
+    font-size: 75px;
+    color: black;
+    text-shadow: 2px 3px 5px black;
+}
+
+h2.panjang{
+    font-family: 'cafe';
+    font-size: larger;
+    margin: -20px 100px ;
+    text-shadow: 2px 3px 5px black;
+}
+
+.column.satu{
+    background-color: #FFCCEA;
+    margin: 30px 0px;
+    font-family: 'serif';
+}
+
+p{
+    margin: 10px;
+}
+
+.column.side{
+    float: right;   
+    margin-right: 90px;
+    margin-top: 8px;
+    background-color: #d2c871;
+}
+
+ol{
+    font-family: 'serif';
+    font-size: medium;
+    list-style-type: decimal;
+    background-color: #86c4e0;
+    margin-left: 60px;
+    margin-top: -5px;
+    margin-bottom: 6px;
+}
+
+
+
+.column.dua{
+    background-color: #d3b4ec;
+    font-family: 'serif';
+}
+
+.column.tiga{
+    background-color: rgb(245, 245, 160);
+    font-family: 'serif';
+}
+
+.column.empat{
+    background-color: rgb(139, 212, 139);
+    font-family: 'serif';
+}
+
+.column.lima{
+    background-color: white;
+    width: 1280px;
+    margin: 20px 0px;
+    font-family: 'serif';
+}
+
+ol.indikator{
+    background: rgb(249, 151, 140);
+    margin-left: 24px;
+}
+
+ul.indikator{
+    background-color: rgb(114, 165, 236);
+    list-style-type: circle;
+    width: 1200px;
+    height: 40px;
+    margin: 5px;
+    margin-left: 15px;
+}
+
+h2{
+    font-family: 'cafe';
+    font-size: 30px;
+    margin: 0px 0px ;
+    text-shadow: 2px 3px 5px black;
+}
+
+.column.enam{
+    background-color: #85A98F;
+    font-family: 'serif';
+}
+
+.column.tujuh{
+    background-color:#FFCCEA;
+    font-family: 'serif';
+}
+
+img.bila{
+    width: 300px;
+    height: 200px;
+}
+
+.column.delapan{
+    background-color: #86c4e0;
+    font-family: 'serif';
+}
+
+img.regi{
+    width: 300px;
+    height: 200px;
+}
+
+.column.sembilan{
+    background-color: #d3b4ec;
+    font-family: 'serif';
+}
+
+img.multi{
+    width: 300px;
+    height: 200px;
+}
+
+.footer{
+    position: relative;
+    margin-bottom: 0px;
+    height: 10px;
+}

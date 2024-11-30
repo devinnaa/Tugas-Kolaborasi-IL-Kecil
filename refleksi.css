@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.header{
+    width: 1280px;
+}
+@font-face {
+    font-family: 'holen';
+    src: url(Holen\ Vintage.otf );
+}
+
+@font-face {
+    font-family: 'super';
+    src: url(Super\ Morning.ttf);
+}
+
+@font-face {
+    font-family: 'cafe';
+    src: url(This\ Cafe.ttf);
+}
+
+@font-face {
+    font-family: 'serif';
+    src: url(TT\ Norms\ Pro\ Serif\ Trial\ Bold.ttf);
+}
+body{
+    background-image: url(under.png);
+    width: 1280px;
+    background-size:cover;
+}
+
+/*Kode CSS Navigator*/
+ul{
+    list-style:none;
+    background: #3289c7;
+    padding: 0px 0px;
+    margin: -5px -1px;
+    position:relative;
+    width: 1280px;
+    height: 60px;
+} 
+
+ul li{
+    display: inline-block ;
+    position: relative;
+    height: 60px;
+    padding: 10px 8px;
+}
+
+ul li a{
+    padding: 10px 0px;
+    text-align: center;
+}
+
+ul a:hover{
+    background-color: #133E87;
+}
+
+/* Kode css dropdown */
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    background:rgb(15, 96, 147);
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+/*Kode CSS Side Bar*/
+h1{
+    font-family: 'cafe';
+    font-size: 50px;
+    margin-top: 10px;
+    text-shadow: 2px 3px 5px black;
+}
+
+.column{
+    margin: 10px 0px;
+}
+
+.column.side{
+    float: right;   
+    width: 20%;
+    background-color: #d2c871;
+}
+
+h2{
+    font-family: 'super';
+    margin-left: 5px;
+}
+
+
+.column.satu{
+    font-family: 'serif';
+    background-color: #8174A0;
+}
+
+p{
+    margin-left: 15px;
+}
+
+.column.dua{
+    font-family: 'serif';
+    background-color: #A888B5;
+}
+
+.column.tiga{
+    font-family: 'serif';
+    background-color: #EFB6C8;
+}
+.footer{
+    width: 1280px;
+    height: 40px;
+    position: fixed;
+    margin: 470px 0px;
+    padding: 0px;
+}
+
+.column.empat{
+    font-family: 'serif';
+    background-color: #85A98F;
+}
+
+.footer{
+    position: relative;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: 10px;
+}
